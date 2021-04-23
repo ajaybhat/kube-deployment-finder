@@ -1,0 +1,68 @@
+### Python template
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+jenkins/k8s_service.yml
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+/baseconfig.yaml
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*,cover
+tests/*.xml
+
+# Log stuff:
+*.log
+
+# Virtual Environments
+virtualenv
+venv
+
+# Sphinx documentation
+docs/_build/
+
+# IntelliJ project files
+.idea
+*.iml
+out
+gen
+.vscode/
+.DS_Store
