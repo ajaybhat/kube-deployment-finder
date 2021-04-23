@@ -6,5 +6,5 @@ Usage:
 ```
 pip install -r requirements.txt
 
-find_kube_deployments.py -f <kube_config_file>
+python find_kube_deployments.py -f <kube_config_file>
 ```
